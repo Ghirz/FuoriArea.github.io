@@ -1,0 +1,38 @@
+@media screen and (max-width:420px) {
+    .header {
+        max-width: 420px;
+    }
+    .logo {
+        max-height: 100px;
+    }
+    
+    .container {
+        max-width: 420px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 45px 45px 145px 45px;
+    }
+
+    .footer {
+        max-width: 400px;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .contenuto {
+        margin-left: 25%;
+    }
+    
+    .container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer {
+        max-width: 1200px;
+        font-size: 2em;
+    }
+}
